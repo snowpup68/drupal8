@@ -1,0 +1,49 @@
+name: Drusilla
+description: A theme for Drupal 8 in the spirit of Livia Drusilla
+type: theme
+package: Custom
+base theme: bootstrap
+core: 8.x
+stylesheets-remove:
+  - core/modules/system/css/components/ajax-progress.module.css
+  - core/modules/system/css/components/align.module.css
+  - core/modules/system/css/components/autocomplete-loading.module.css
+  - core/modules/system/css/components/fieldgroup.module.css
+  - core/modules/system/css/components/container-inline.module.css
+  - core/modules/system/css/components/clearfix.module.css
+  - core/modules/system/css/components/details.module.css
+  - core/modules/system/css/components/hidden.module.css
+  - core/modules/system/css/components/item-list.module.css
+  - core/modules/system/css/components/js.module.css
+  - core/modules/system/css/components/nowrap.module.css
+  - core/modules/system/css/components/position-container.module.css
+  - core/modules/system/css/components/progress.module.css
+  - core/modules/system/css/components/reset-appearance.module.css
+  - core/modules/system/css/components/resize.module.css
+  - core/modules/system/css/components/sticky-header.module.css
+  - core/modules/system/css/components/tabledrag.module.css
+  - core/modules/system/css/components/tablesort.module.css
+  - core/modules/system/css/components/tree-child.module.css
+  - core/modules/views/css/views.module.css
+libraries:
+  - drusilla/global-css
+  - drusilla/global-js
+regions:
+  header: ‘Header’
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  help: Help
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'

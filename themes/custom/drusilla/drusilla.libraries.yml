@@ -1,10 +1,4 @@
-global-css:
+global-styling:
   css:
     theme:
       css/style.css: {}
-
-global-js:
-  js:
-    js/main.js: {}
-  dependencies:
-    - core/jquery
